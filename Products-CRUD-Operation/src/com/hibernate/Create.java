@@ -52,7 +52,9 @@ public class Create {
 	}
 	
 	// create row in database
-	public void createData() {
+	public void createData() throws Exception {
+		
+		inputUser();
 		
 		// session object create
 		Session session = this.factory.getCurrentSession();

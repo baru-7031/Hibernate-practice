@@ -42,6 +42,7 @@ public class Products {
 		
 	}
 
+	// All Fields Getter, Setter, and toString 
 
 	public int getProductId() {
 		return productId;
@@ -98,9 +99,6 @@ public class Products {
 		return "products [productId=" + productId + ", productPrice=" + productPrice + ", productQuantity="
 				+ productQuantity + ", productName=" + productName + ", productDescription=" + productDescription + "]";
 	}
-	
-	
-
 	
 }
 
